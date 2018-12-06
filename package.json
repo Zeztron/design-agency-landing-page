@@ -1,11 +1,24 @@
 {
   "name": "dev-portfolio-template",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template layout for a developer. Feel free to use this as your own portfolio layout.",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zeztron/dev-portfolio-template.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zeztron/dev-portfolio-template/issues"
+  },
+  "homepage": "https://github.com/Zeztron/dev-portfolio-template#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.2"
+  }
 }
