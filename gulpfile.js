@@ -23,4 +23,5 @@ gulp.task("sass", () => {
 
 gulp.task("watch", ["browserSync", "sass"], () => {
     gulp.watch("sass/*.scss",["sass"]);
+    gulp.watch("index.html", browserSync.reload);
 });
